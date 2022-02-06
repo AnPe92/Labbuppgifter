@@ -12,7 +12,7 @@ class Counter{
         return count;
     }
 
-    public void increment() {
+    public synchronized void increment() {
         count++;
     }
 }
